@@ -25,7 +25,9 @@
     "size": "size-limit",
     "analyze": "size-limit --why"
   },
-  "peerDependencies": {},
+  "peerDependencies": {
+    "@microsoft/fast-element": ">=1.11.0"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "tsdx lint"
@@ -37,7 +39,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-
   "module": "dist/fast-layout-element.esm.js",
   "size-limit": [
     {
